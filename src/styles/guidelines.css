@@ -1,0 +1,63 @@
+.Guidelines_container {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 40px 60px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Guidelines_container h1 {
+    font-size: 24px;
+    color: var(--primary-bg-blue);
+}
+
+.guideline-h {
+    font-size: var(--font-size-small);
+    border-left: 4px solid var(--primary-bg-blue);
+    padding: 0 0 0 10px;
+    color: var(--primary-bg-blue);
+}
+
+.guideline-p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    padding: 0px 10px 0px 10px;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.guideline-btn {
+    margin-bottom: 35px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #1b345f;
+    color: #ffffff;
+    cursor: pointer;
+    width: 270px;
+    font-size: 14px;
+    transition: all 0.3s ease-in;
+    border: none;
+}
+
+.guideline-btn:hover {
+    background-color: #d1d9e6;
+    color: #1b345f;
+}
+
+.guideline-p span {
+    font-weight: 700;
+}
+
+@media(max-width:500px) {
+    .Guidelines_container {
+        margin: 0px;
+        border-radius: 0px;
+        padding: 20px;
+    }
+}

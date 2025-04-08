@@ -1,0 +1,113 @@
+.home-sidebar {
+    padding: 20px;
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    height: fit-content;
+    max-width: 340px;
+    display: flex;
+}
+
+.home-sidebar-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.home-sidebar-section h3 i {
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+.home-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    padding-left: 20px;
+    flex-wrap: wrap;
+
+
+}
+
+.home-timeline-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.home-timeline-icon {
+    width: 30px;
+    height: 30px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.9rem;
+    z-index: 1;
+}
+
+.home-timeline-content {
+    flex: 1;
+}
+
+.home-timeline-content strong {
+    display: block;
+    font-size: 1rem;
+    color: var(--primary-color);
+}
+
+.home-timeline-content p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.home-social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 5px;
+}
+
+.home-social-links a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.home-social-links a:hover {
+    color: var(--primary-green);
+}
+
+@media(max-width:1024px) {
+    .home-sidebar {
+        display: flex;
+        max-width: 100%;
+    }
+
+    .home-timeline {
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 calc(25% - 10px);
+    }
+}
+
+@media(max-width:375px) {
+    .home-sidebar {
+        padding: 10px 0px;
+    }
+}
