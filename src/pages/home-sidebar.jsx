@@ -29,6 +29,13 @@ function HomeSidebar() {
                         </div>
                     </div>
                     <div className="home-timeline-item">
+                        <div className="home-timeline-icon"><FaCamera /></div>
+                        <div className="home-timeline-content">
+                            <strong>Last Date Extended</strong>
+                            <p>July 9, 2025</p>
+                        </div>
+                    </div>
+                    <div className="home-timeline-item">
                         <div className="home-timeline-icon"><FaCalendarMinus /></div>
                         <div className="home-timeline-content">
                             <strong>Conference Date</strong>
